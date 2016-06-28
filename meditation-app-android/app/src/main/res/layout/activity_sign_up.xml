@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/footer_bg">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center_vertical"
+
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/text_sign_up_header"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center"
+            android:padding="2dp"
+            android:text="SIGN UP"
+            android:layout_weight="3"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_bar"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_sign_up_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/meditation_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            >
+
+            <EditText
+                android:id="@+id/edit_sign_up_email_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_marginBottom="1dp"
+                android:paddingLeft="5dp"
+                android:cursorVisible="true"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:hint="EMAIL"
+                style="@style/editText"
+                android:textColorHint="#89ABC4"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edit_sign_up_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:hint="PASSWORD"
+                android:password="true"
+                android:cursorVisible="true"
+                android:textCursorDrawable="@drawable/cursor_color"
+                style="@style/editText"
+                android:singleLine="true"
+                android:textColorHint="#89ABC4"
+                android:paddingLeft="5dp"
+                android:textSize="18sp" />
+            <EditText
+                android:id="@+id/edit_sign_up_confirm_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="REPEAT PASSWORD"
+                android:password="true"
+                style="@style/editText"
+                android:cursorVisible="true"
+                android:paddingLeft="5dp"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:textColorHint="#89ABC4"
+                android:singleLine="true"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#F53952"
+            android:text="SIGN UP"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IF YOU  ALREADY HAVAE AN  ACCOUNT?"
+                android:textSize="14sp"
+
+                android:textColor="#FFFFFF"
+                android:id="@+id/text_sign_in_msg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_sign_in"
+                android:layout_marginLeft="10dp"
+                android:text="SIGN IN"
+                android:layout_marginRight="10dp"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

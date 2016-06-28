@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Binaural Beats</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+
+    <!-- SIGN IN -->
+    <string name="sign_in">SIGN IN</string>
+
+    <!-- INFORMATION -->
+    <string name="info_header">INFORMATION</string>
+    <string name="info_article">Articles</string>
+    <string name="info_testimonials">Testimonials</string>
+    <string name="info_FAQ">FAQ</string>
+    <string name="info_visit_our_website">Visit Our Website</string>
+    <string name="info_website">Website</string>
+    <string name="info_Sync">Sync \u0026 Restore</string>
+    <string name="info_share">Share with Friends</string>
+    <string name="info_rate">Rate \u0026 Review </string>
+    <string name="info_contact">Contact Support</string>
+
+    <!-- STORE -->
+    <string name="store_header">STORE</string>
+    <string name="store_song_name">Sleep Improver</string>
+    <string name="store_play">Play</string>
+    <string name="store_download">Download</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="play_list_detail"> ~ No Extensive practice Required \n~ No Extensive practice Required \n~ No Extensive practice Required </string>
+    <string name="sample"> Sample </string>
+    <string name="full_version"> Full Version </string>
+    <string name="we_value_your_feedback">We Value Your Feedback</string>
+    <string name="app_review">If like our app,we would greatly appreciate if you can take a one minute to rate with five star and Write
+    great review. Other wise pls contact support with your concern. We will do every attempt to resolve any issues you may have</string>
+    <string name="comment">COMMENT</string>
+    <string name="submit">SUBMIT</string>
+
+
+    <!--INTRO -->
+
+    <string name="mediation_club">MP3 Mediation Club</string>
+    <string name="brain_wave_header">Brain Wave Entertainment - What is it?  </string>
+    <string name="brain_frequencies_header"> Brain Frequencies that link to different mental states</string>
+    <string name="isochronic_header">Isochronic tones- Including strong crotical responses </string>
+    <string name="neural_simulation">Neural simulation to improve attention and focus </string>
+    <string name="mood">Mood Regulation and emotional well - being </string>
+    <string name="intro_mp3">Sound, chanting, vibrations….the power of acoustics has been manipulated and leveraged by mankind for thousands of years. Sounds trigger memories, stir energy and heal. MP3 Meditation Club strives to provide you with top-notch audio products that stimulate brainwaves and provide a range of far-reaching benefits for your body, mind and soul. We\' d like to take you through two important concepts in sound technology that form the basis of our audio offerings, which have been extremely therapeutic for our satisfied and fast-growing list of customers.
+</string>
+    <string name="intro_brain_wave_content">Pulses of sound (and light) when transmitted rhythmically attract an electric response from the brain. In other words, the brain discharges an electric charge and falls in step with the sound stimulus. Quick and consistent sound stimuli can resemble the brain\'s internal rhythm (known as \'brainwaves\'). The brain then synchronizes its electric cycles to this rhythm in a phenomenon known as FFR or Frequency Following Response. The idea behind brain entrainment is to induce or alter mental and physical states, and here\'s where its benefits lie.
+</string>
+    <string name="intro_brain_frequencies_content">Brainwaves in different frequency bands are linked to different mental states, conscious and unconscious. When you are feeling sleepy or energetic, the brainwaves will fall in two distinct frequency bands. Here\'s a look at these bands/ranges:
+
+When you are alert and fully awake, you are in the Beta band i.e. 12 Hz to 38 Hz
+
+A conscious but not fully alert state (such as the moments before going to sleep or just after you wake up) exists in the Alpha band i.e. 8 Hz to 12 Hz
+
+When you are  in a relaxed state of mind or in a light sleep, your brainwave frequency lies between 3 Hz and 8 Hz
+
+A deep and unconscious sleep-like state falls in the Delta band, i.e. 0.2 Hz to 3 Hz.
+
+Now that you have got a sense of what brain entrainment is, let\'s continue the discussion to an important aural entrainment method - isochronic tones.
+</string>
+    <string name="intro_isochronic_tones_content">If you have browsed our products, you may have understood by now that they definitely have something to do with isochronic mp3 tones! Here\'s what you should know so as not to waste a single moment leveraging the multiple benefits of isochronic tones. Explained in simple words, isochronic tones are just tones that are evenly spaced and turned on and off in quick succession to create distinct sound pulses. Using a single tone, their intensity and volume is spaced evenly to create maximum impact on the brain. Serving as stimuli in our audio products, isochronic tones perform the important task of brain entrainment to provide cognitive and other benefits.
+</string>
+    <string name="intro_neural_simulation_content">Can you actually increase your cognitive abilities with the power of acoustics? Yes, you can! Studies have shown that brainwave patterns can be stimulated to reach or induce higher states of cognitive ability (temporarily) with an effective tool such as isochronic mp3 tones. Be sure to check out our \'Speed Learning\' and \'Increase Creativity\' audio products!
+</string>
+    <string name="intro_mood_content">Stress beating you down? Mood swings affecting your personal or work life? Brain entrainment using isochronic mp3 tones is your solution to stop over-arousing your brain and slithering into a tranquil state. Our audio products will ensure that you emerge from your listening sessions calm, relaxed and  happy!
+   </string>
+
+
+    <!--CONTACT-->
+    <string name="contact_message">Contact support with your concern.We will do every attempt to resolve any issue you may have.</string>
+
+    <!--INFO_ARTICLES-->
+    <string name="info_articles">Articles</string>
+
+     <!--AWS s3-->
+    <string name="upload_activity">UploadActivity</string>
+    <string name="download_activity">DownloadActivity</string>
+    <string name="download_selection_activity">Select a file from the bucket</string>
+    <string name="download">Download</string>
+    <string name="manage_download">Manage downloads</string>
+    <string name="upload">Upload</string>
+    <string name="manage_upload">Manage uploads</string>
+    <string name="upload_file">Upload a file</string>
+    <string name="upload_image">Upload an image</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="pause_all">Pause all</string>
+    <string name="cancel_all">Cancel all</string>
+    <string name="refreshing">Refreshing</string>
+    <string name="please_wait">Please wait</string>
+
+
+</resources>

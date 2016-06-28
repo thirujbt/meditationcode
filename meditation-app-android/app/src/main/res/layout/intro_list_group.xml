@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:background="#ff142736"
+  >
+
+
+   <!-- <LinearLayout
+        android:id="@+id/layout_mp3_mediation"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="#ff142736"
+        android:orientation="horizontal">-->
+
+        <TextView
+
+            android:id="@+id/text_mp3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="MP3 Meditation Club"
+
+            android:textColor="#ffffffff"
+            android:textSize="14sp"
+            android:gravity="center_vertical" />
+
+        <ImageView
+            android:id="@+id/meditation_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="15dp"
+            android:src="@drawable/arrow_down_index" />
+    <!--</LinearLayout>-->
+</LinearLayout>

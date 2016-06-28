@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/intro_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_mediation_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/index_logo" />
+
+        <TextView
+            android:id="@+id/text_header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:text="MP3-MEDITATION-CLUB"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="LOGIN/"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:id="@+id/text_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+
+   <!-- <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/layout_mp3_mediation"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:background="#ff142736"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:id="@+id/text_meditation_club"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:text="MP3 Meditation Club"
+                android:textColor="#ffffffff"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/meditation_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="15dp"
+                android:src="@drawable/arrow_up_index" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_mediation_club_Content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:padding="10dp"
+            android:text="@string/intro_mp3"
+            android:visibility="gone"/>
+
+
+        <LinearLayout
+            android:id="@+id/layout_brain_entertainment"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:background="#ff142736"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_brain_entertainment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:text="Brain Wave Entertainment - What is it?"
+                android:textColor="#ffffffff"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/img_brain_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="15dp"
+                android:src="@drawable/arrow_up_index" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_brain_entertainment_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:text="@string/intro_brain_wave_content"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:id="@+id/layout_brain_wave"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:background="#ff142736"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_brain_wave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:text="Brain Frequencies that link to different mental states"
+                android:textColor="#ffffffff"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/img_brain_wave_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="15dp"
+                android:src="@drawable/arrow_up_index" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_brain_wave_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:text="@string/intro_brain_frequencies_content"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/layout_isochronic"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:background="#ff142736"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_isochronic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:text="Isochronic tones- Including strong crotical responses"
+                android:textColor="#ffffffff"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/img_isochronic_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="15dp"
+                android:src="@drawable/arrow_up_index" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_isochronic_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:text="@string/intro_isochronic_tones_content"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:id="@+id/layout_neural"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:background="#ff142736"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_neural"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:text="Neural simulation to improve attention and focus"
+                android:textColor="#ffffffff"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/img_neural_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="15dp"
+                android:src="@drawable/arrow_up_index" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_neural_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:text="@string/intro_neural_simulation_content"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:id="@+id/layout_mood"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:background="#ff142736"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_mood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:text="Mood Regulation and emotional well - being"
+                android:textColor="#ffffffff"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/img_mood_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="15dp"
+                android:src="@drawable/arrow_up_index" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_mood_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:text="@string/intro_mood_content"
+            android:visibility="gone" />
+
+    </LinearLayout>-->
+    <ExpandableListView
+        android:layout_margin="10dp"
+        android:id="@+id/lvExp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:groupIndicator="@null"
+
+       />
+
+</LinearLayout>
